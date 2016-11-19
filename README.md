@@ -1,4 +1,4 @@
-** Beecask is a fast key-value storage library based on bitcask model. **
+**Beecask is a fast key-value storage library based on bitcask model.**
 
 ## Features
 + Keys and values are arbitrary byte arrays.
