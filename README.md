@@ -34,7 +34,7 @@ average 4.631326 micros/op
 
 ## Installation
 + go get github.com/yplusplus/ylog
-+ go get github.com/yplusplus/bytecask
++ go get github.com/yplusplus/beecask
 
 ## Other
 welcome all the bug feedbacks and pull requests
