@@ -3,15 +3,10 @@ package beecask
 import (
 	"bufio"
 	"encoding/binary"
-	"fmt"
 	"io"
 	"os"
 
 	"github.com/yplusplus/ylog"
-)
-
-var (
-	ErrReadHintItem = fmt.Errorf("read hint item failed.")
 )
 
 const (
