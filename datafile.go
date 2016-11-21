@@ -197,7 +197,7 @@ func (cache *DataFileCache) Unref(entry *CacheEntry) {
 
 func (cache *DataFileCache) Evict(fileId uint64) {
 	cache.mu.Lock()
-	cache.mu.Unlock()
+	defer cache.mu.Unlock()
 	ele, ok := cache.hash[fileId]
 	if ok {
 		entry := ele.Value.(*CacheEntry)
