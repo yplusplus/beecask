@@ -1,5 +1,7 @@
 **Beecask is a fast key-value storage library based on bitcask model.**
 
+![Beecask](./beecask.jpg)
+
 ## Features
 + Keys and values are arbitrary byte arrays.
 + The basic operations are Set(key, value), Get(key), Delete(key).
